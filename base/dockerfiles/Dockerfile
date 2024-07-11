@@ -58,7 +58,7 @@ RUN pip3 install --upgrade pip && pip3 install --no-cache-dir \
   dcmqi==0.2.0
 
 # Install mhubio framework from git, pulls the utils scripts from GitHub
-RUN pip3 install git+https://github.com/MHubAI/mhubio.git \
+RUN pip3 install git+https://github.com/ccosmin97/mhubio.git \
   && pip3 install git+https://github.com/MHubAI/segdb.git \
   && git init \
   && git sparse-checkout set "base/buildutils" "base/bin" "base/configs" \
